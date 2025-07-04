@@ -1,0 +1,99 @@
+@charset "UTF-8";
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: #582d66;
+    height: 100vh;
+    width: 100vw;
+}
+main{
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+#login{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 500px;
+    background-color: white;
+    border-radius: 22px;
+    box-shadow: 0px 0px 10px 4px rgba(0, 0, 0, 0.479);
+    transition: width 0.4s, height 0.4s;
+    transition-timing-function: ease;
+    overflow: hidden;
+}
+#foto{
+    background-image: url(../imagens/Tela-site.png);
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    
+}
+.tela-login{
+    background-color: rgb(85, 28, 85);
+}
+.fundo-login{
+    background-color: rgb(2, 102, 102);
+    padding: 3px;
+    margin: 5px;
+    width: 97%;
+    border: 0px;
+    border-radius: 6px;
+}
+#formulario h1{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.24);
+}
+#formulario p{
+    padding: 10px;
+    font-size: 0.9em;
+}
+#botao{
+    display: block;
+    width: 50%;
+    
+}
+input::placeholder{
+    color: white;
+}
+.botao{
+
+    padding:10px;
+    display: block;
+    width: 260px;
+    border-radius: 0px;
+    border: 0px;
+    margin: auto;
+}
+#entrar{
+    margin-top: 3px;
+    margin-bottom: 2px;
+    background-color: rgb(2, 102, 102);
+    border-radius: 6px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.616);
+    color: white;
+}
+#entrar:hover{
+    background-color: rgb(1, 68, 68);
+}
+#forgot{
+    margin-top: 3px;
+    margin-bottom: 2px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 6px;
+    box-shadow: 2px 2px 4px rgb(2, 102, 102);
+    color: rgb(6, 100, 100);
+}
+#forgot:hover{
+    background-color: rgb(0, 182, 182);
+}
